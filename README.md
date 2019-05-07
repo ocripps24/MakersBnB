@@ -35,8 +35,54 @@ We would like a web application that allows users to list spaces they have avail
 
 ### User Stories
 ```
-Example Story
-As a User,
-So I can do something,
-I'd like to do something.
+User story 1
+As a General User
+So I can maintain settings / properties
+I want to be able to log in to makers bnb 
+
+User story 2
+As a Listing User 
+So I can offer my property for rent
+I want to be able to list my property on makers bnb 
+
+User story 3
+As a Listing user
+So I can offer all my properties for rent
+I want to be able to list multiple properties on makers bnb 
+
+User story 4
+As a Listing User
+So I can have a unique listing
+I want to be able to add a name, description and price to each space 
+
+User story 5
+As a Listing User 
+So I control tenancy dates
+I want to offer specific availability for my properties
+
+User story 6
+As a Listing User
+So I control tenancy dates
+I want to add available dates to my listings 
+
+User story 7
+As a Renting User 
+So I can choose a property 
+I want to see the available dates for a property 
+
+User story 8
+As a Renting User
+So I can stay in a property
+I want to be able to request a property for one night 
+
+User story 9
+As a Listing User 
+So I can rent out a property 
+I want to be able to see all and accept one user requests for a property 
+
+User story 10
+As a Listing User 
+So my properties can only be booked once at a time 
+I want the availability status of my property to be unavailable if booked
+
 ```
