@@ -56,31 +56,26 @@ So I can have a unique listing
 I want to be able to add a name, description and price to each space 
 
 User story 5
-As a Listing User 
-So I control tenancy dates
-I want to offer specific availability for my properties
-
-User story 6
 As a Listing User
 So I control tenancy dates
 I want to add available dates to my listings 
 
-User story 7
+User story 6
 As a Renting User 
 So I can choose a property 
 I want to see the available dates for a property 
 
-User story 8
+User story 7
 As a Renting User
 So I can stay in a property
 I want to be able to request a property for one night 
 
-User story 9
+User story 8
 As a Listing User 
 So I can rent out a property 
 I want to be able to see all and accept one user requests for a property 
 
-User story 10
+User story 9
 As a Listing User 
 So my properties can only be booked once at a time 
 I want the availability status of my property to be unavailable if booked
