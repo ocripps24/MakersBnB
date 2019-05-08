@@ -1,4 +1,4 @@
-var port = 3000;
+// var port = 3000;
 
 var createError = require('http-errors');
 var express = require('express');
@@ -11,7 +11,7 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
-app.listen(port, function() {});
+// app.listen(port, function() {});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
