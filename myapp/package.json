@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "chromedriver": "^74.0.0",
+    "jasmine": "^3.4.0",
     "nightwatch": "^1.0.19",
     "nodemon": "^1.19.0"
   }
