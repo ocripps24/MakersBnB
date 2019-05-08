@@ -13,6 +13,6 @@ describe("GET /", () => {
         expect(data.status).toBe(200);
     });
     it("Body", () => {
-        expect(data.body).toBe("The Polyglot Developer");
+        expect(data.body).toContain("The Polyglot Developer");
     });
 });

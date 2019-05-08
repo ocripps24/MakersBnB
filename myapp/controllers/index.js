@@ -2,5 +2,5 @@
 
 
 exports.index = function(req, res, next) {
-  res.render('index', { title: 'DJ SO' });
+  res.render('index', { title: 'The Polyglot Developer' });
 }

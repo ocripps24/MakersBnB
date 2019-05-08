@@ -1,5 +1,5 @@
 module.exports = {
-  "src_folders" : ["tests"],
+  "src_folders" : ["featureTests"],
   "webdriver" : {
     "start_process": true,
     "server_path": "node_modules/.bin/chromedriver",
