@@ -4,7 +4,11 @@
   "private": true,
   "scripts": {
     "start": "if [[ $NODE_ENV == 'production' ]]; then node ./bin/www; else nodemon ./bin/www; fi",
-    "test": "./node_modules/.bin/jasmine-node spec"
+    "test": "nightwatch"
+  },
+  "engines": {
+    "node": ">=10.0.0 <11.0.0",
+    "npm": ">=6.0.0 <7.0.0 "
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -19,6 +23,8 @@
     "sequelize": "^5.8.5"
   },
   "devDependencies": {
+    "chromedriver": "^74.0.0",
+    "nightwatch": "^1.0.19",
     "nodemon": "^1.19.0"
   }
 }
