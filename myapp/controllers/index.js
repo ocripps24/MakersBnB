@@ -47,3 +47,27 @@ exports.show_user = function(req, res, next) {
     res.render('user', { username: user.username });
   })
 }
+
+
+// exports.update_table = function(req, res, next) {
+//
+//   return models.Table???.update({
+//     ???: req.body.???
+//
+// 		where : {
+//       ???: req.params.???,
+// 		}
+// 	}).then(user => {
+//     res.???;
+//   })
+// }
+//
+// exports.delete_table = function(req, res, next) {
+// 	return models.Table???.destroy({
+// 		where: {
+// 			???: req.params.???
+// 		}
+// 	}).then(result => {
+// 		res.????
+// 	})
+// }
