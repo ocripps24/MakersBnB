@@ -28,6 +28,10 @@ module.exports = {
         allowNull: true,
         type: Sequelize.STRING
       },
+      user_id: {
+      	allowNull: false,
+      	type: Sequelize.STRING
+      },
     })
   },
   down: (queryInterface, Sequelize) => {

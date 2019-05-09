@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
     id: {
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4,
-      
+
       allowNull: false,
       primaryKey: true
     },
@@ -20,7 +20,10 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: true,
       type: DataTypes.STRING
     },
-
+    user_id: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
   });
 
   return Properties;
