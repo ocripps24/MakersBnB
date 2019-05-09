@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
-            tests="0">
+            failures="1"
+            tests="1">
 
   <testsuite name="firstTest"
-    errors="0" failures="0" hostname="" id="" package="firstTest" skipped="0"
-    tests="0" time="0.000" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="firstTest" skipped="0"
+    tests="1" time="1.396" timestamp="">
+  
+    <testcase name="Demo" classname="firstTest" time="1.396" assertions="1">  <failure message="Testing if element &lt;h1&gt; contains text: &#34;The Polyglot Developer&#34; in 1000 ms. - expected [0;32m&#34;The Polyglot Developer&#34;[0m but got: [0;31m&#34;MakersBnB&#34;[0m">    at Object.Demo (/Users/student/Projects/makersbnb/myapp/featureTests/firstTest.js:5:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.Demo (/Users/student/Projects/makersbnb/myapp/featureTests/firstTest.js:5:15)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
   
 
   
