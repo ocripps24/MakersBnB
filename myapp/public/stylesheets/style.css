@@ -2,7 +2,7 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #E4FAFB;
-  /* background-image: url(https://images.pexels.com/photos/1267473/pexels-photo-1267473.jpeg?cs=srgb&dl=beach-beautiful-chair-1267473.jpg&fm=jpg); */
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
