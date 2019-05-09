@@ -7,6 +7,7 @@ module.exports = {
   },
   "test_settings" : {
     "default" : {
+      "skip_testcases_on_fail": false,
       "desiredCapabilities": {
         "browserName": "chrome"
       }
