@@ -3,7 +3,15 @@ const models = require('../models')
 var userid
 
 exports.index = function(req, res, next) {
-  res.render('index', { title: 'The Polyglot Developer' });
+  res.render('index');
+}
+
+exports.dashboard = function(req, res, next) {
+  res.render('dashboard', {name: req.body.email});
+}
+
+exports.add = function(req, res, next) {
+  res.render('add');
 }
 
 exports.submit_signup = function(req, res, next) {

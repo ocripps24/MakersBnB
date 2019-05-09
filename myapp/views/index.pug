@@ -1,5 +1,19 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 MakersBnB
+  p Welcome to MakersBnB
+  h2 Sign Up
+
+  form(method='POST' action='/')
+    input#signUpName(type='text', placeholder='name')
+    input#signUpEmail(type='text', placeholder='email')
+    input#signUpPassword(type='text', placeholder='password')
+    button#signUp(type='submit') Sign Up
+
+  h2 Log In
+
+  form(method='POST' action='/dashboard')
+    input#logInEmail(type='text', placeholder='email' name='email')
+    input#logInPassword(type='text', placeholder='password')
+    button#logIn(type='submit') Log In
