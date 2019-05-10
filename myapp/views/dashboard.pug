@@ -9,13 +9,14 @@ block content
 
   div(class='listings', id='listings')
     for property in properties
-      p #{property.name}: #{property.description} /#{property.price}
+      p #{property.name}: #{property.description} /#{property.price} 
       if userid == property.user_id
-        form(method='POST', action=`/`+property.id+`/edit`, id='editproperty', name='editproperty')
-        <input type="submit" id="edit" value="edit"/>
+        form(method='POST', action='/edit', id='editproperty', name='editproperty')
+          button#edit(type='submit', name='edit', value=property.id) Edit
       else
         form(method='POST', action=`/`+property.id+`/request`, id='requestproperty', name='requestproperty')
         <input type="submit" id="edit" value="request"/>
+
 
   <div class="grid-layout">
       <div class="grid-item grid-item-1">item 1</div>

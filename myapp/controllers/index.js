@@ -11,6 +11,17 @@ exports.add = function(req, res, next) {
   res.render('add');
 }
 
+exports.edit = function(req, res, next) {
+  return models.Properties.findOne({
+    id: req.body.edit
+  }).then(property => {
+    name = property.name;
+    description = property.description;
+    price = property.price;
+    res.render('edit', { name: name, description: description, price: price })
+  })
+}
+
 exports.submit_signup = function(req, res, next) {
   return models.Users.create({
     username: req.body.signUpName,

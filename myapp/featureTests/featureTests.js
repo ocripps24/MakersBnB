@@ -57,16 +57,21 @@ module.exports = {
       .verify.containsText('#listings', 'madrid flat')
       .verify.containsText('#listings', 'barcelona flat')
       .end();
+  },
+
+  'User Story Five - step one: go to the edit page' : function (browser) {
+    browser
+      .url('http://localhost:3000/')
+      .setValue('#logInEmail', 'jonesbob@email.com')
+      .setValue('#logInPassword', '****')
+      .click('#logIn')
+      .click('#edit')
+      .verify.urlEquals('http://localhost:3000/edit')
+      .verify.containsText('h3', 'barcelona flat')
   }
-//
-//   'User Story Five - step one: edit availabity for listing' : function (browser) {
-//     browser
-//       .url('http://localhost:3000/')
-//       .setValue('#logInEmail', 'jonesbob@email.com')
-//       .setValue('#logInPassword', '****')
-//       .click('#logIn')
-//       .click('#1')
-//       .verify.urlEquals('http://localhost:3000/edit')
-//       .verify.containsText('h1', 'barcelona flat')
-//   }
+
+  // 'User Story Five - step two: edit availability' : function (browser) {
+  //   browser
+  //   .
+  // }
 };

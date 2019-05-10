@@ -8,6 +8,7 @@ router.get('/', index.index);
 router.post('/', index.submit_signup);
 router.post('/users', index.check_user);
 router.get('/dashboard',index.show_properties );
+router.post('/edit', index.edit);
 // router.post('/dashboard', index.show_properties);
 
 router.get('/add', index.add);
