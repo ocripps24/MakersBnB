@@ -1,6 +1,6 @@
 const models = require('../models')
 
-var userid, username
+var userid, username,user
 var properties
 
 exports.index = function(req, res, next) {
@@ -59,7 +59,7 @@ exports.add_property = function(req, res, next) {
 
 exports.show_properties = function(req, res, next) {
 	return models.Properties.findAll().then(properties => {
- 	  res.render('dashboard', {properties: properties, name: username  })
+ 	  res.render('dashboard', {properties: properties, name: username, userid: userid  })
 	})
 }
 
