@@ -26,9 +26,43 @@ h1 {
   -webkit-animation:colorchange 20s infinite alternate;
 }
 
+.welcome-block {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 25px;
+  padding: 20px 25px 40px 50px !important;
+  border: 1px solid #929292;
+}
+
+.welcome-block p {
+  color: black;
+}
+
+.welcome-block h1 {
+  -webkit-animation:colorchange-dash 20s infinite alternate;
+}
+
+.dash-wrapper {
+  background: url('https://images.unsplash.com/photo-1551649123-4c2d37b7fed2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80') no-repeat;
+  background-attachment: fixed;
+}
+
+.listings-block {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+.listings-block p {
+  color: black !important;
+}
+
+#hidden-block {
+  background-color: rgba(255, 255, 255, 0.0);
+}
+
 .landing {
-  background: url('https://images.unsplash.com/photo-1463344221404-45de21b1f4ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1902&q=80');
-  background-size: cover;
+  background: url('https://images.unsplash.com/photo-1463344221404-45de21b1f4ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1902&q=80') no-repeat;
+  background-attachment: fixed;
 }
 
 :required {
@@ -54,15 +88,15 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   color: #929796;
-  background-color: #333;
+  background-color: #fff;
   border-radius: 5px;
 }
 .grid-item:nth-child(odd) {
-  background-color: grey;
+  background-color: #fff;
 }
 
 .grid-item:nth-child(even) {
-  background-color: grey;
+  background-color: #fff;
 }
 
 .span-2 {
@@ -72,7 +106,12 @@ h1 {
 
 .span-3 {
   grid-column-end: span 3;
-  grid-row-end: span 4;
+  grid-row-end: span 2;
+}
+
+.span-4 {
+  grid-column-end: span 4;
+  grid-row-end: span 2;
 }
 
 @-webkit-keyframes colorchange {
@@ -105,6 +144,42 @@ h1 {
   }
   90% {
     color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes colorchange-dash {
+  0% {
+    color: black;
+  }
+  10% {
+    color: #929292;
+  }
+  20% {
+    color: black;
+  }
+  30% {
+    color: #929292;
+  }
+  40% {
+   color: black;
+  }
+  50% {
+    color: #929292;
+  }
+  60% {
+    color: black;
+  }
+  70% {
+    color: #929292;
+  }
+  80% {
+    color: black;
+  }
+  90% {
+    color: #929292;
   }
   100% {
     color: black;
