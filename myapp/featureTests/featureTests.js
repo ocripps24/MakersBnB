@@ -41,23 +41,23 @@ module.exports = {
     browser
       .verify.containsText('#listings', 'barcelona flat')
       .end();
-  }
+  },
 
-//   'User Story Three - step one: dashboard can contain more than one user listing' : function (browser) {
-//     browser
-//       .url('http://localhost:3000/')
-//       .setValue('#logInEmail', 'jonesbob@email.com')
-//       .setValue('#logInPassword', '****')
-//       .click('#logIn')
-//       .click('#addListing')
-//       .setValue('#propertyName', 'madrid flat')
-//       .setValue('#propertyDescription', 'sunny madrid flat')
-//       .setValue('#propertyPrice', '£40')
-//       .click('#create')
-//       .verify.containsText('#listings', 'madrid flat')
-//       .verify.containsText('#listings', 'barcelona flat')
-//       .end();
-//   },
+  'User Story Three - step one: dashboard can contain more than one user listing' : function (browser) {
+    browser
+      .url('http://localhost:3000/')
+      .setValue('#logInEmail', 'jonesbob@email.com')
+      .setValue('#logInPassword', '****')
+      .click('#logIn')
+      .click('#addListing')
+      .setValue('#propertyName', 'madrid flat')
+      .setValue('#propertyDescription', 'sunny madrid flat')
+      .setValue('#propertyPrice', '£40')
+      .click('#create')
+      .verify.containsText('#listings', 'madrid flat')
+      .verify.containsText('#listings', 'barcelona flat')
+      .end();
+  }
 //
 //   'User Story Five - step one: edit availabity for listing' : function (browser) {
 //     browser
