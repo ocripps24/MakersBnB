@@ -1,10 +1,112 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #E4FAFB;
+  background-color: white;
   font-family: 'Poppins', sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+button {
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  color: #313131;
+  text-align: left;
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+
+.landing {
+  background: url('https://images.unsplash.com/photo-1463344221404-45de21b1f4ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1902&q=80');
+  background-size: cover;
+}
+
+:required {
+  padding: 10px;
+  font-weight: lighter;
+  border: none;
+  border-radius: 20px;
+  margin: 10px 20px 30px 0%;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: minmax(180px, auto);
+  grid-auto-flow: dense;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #929796;
+  background-color: #333;
+  border-radius: 5px;
+}
+.grid-item:nth-child(odd) {
+  background-color: grey;
+}
+
+.grid-item:nth-child(even) {
+  background-color: grey;
+}
+
+.span-2 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.span-3 {
+  grid-column-end: span 3;
+  grid-row-end: span 4;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: black;
+  }
+  10% {
+    color: white;
+  }
+  20% {
+    color: black;
+  }
+  30% {
+    color: white;
+  }
+  40% {
+   color: black;
+  }
+  50% {
+    color: white;
+  }
+  60% {
+    color: black;
+  }
+  70% {
+    color: white;
+  }
+  80% {
+    color: black;
+  }
+  90% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
 }

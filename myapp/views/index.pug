@@ -1,19 +1,17 @@
 extends layout
 
 block content
+  body(class="landing") 
   h1 MakersBnB
   p Welcome to MakersBnB
-  h2 Sign Up
 
   form(method='POST' action='/')
-    input#signUpName(type='text', name='signUpName', placeholder='name')
-    input#signUpEmail(type='text', name='signUpEmail', placeholder='email')
-    input#signUpPassword(type='text',name='signUpPassword' placeholder='password')
+    input#signUpName(type='text', name='signUpName', required placeholder='name')
+    input#signUpEmail(type='text', name='signUpEmail', required placeholder='email')
+    input#signUpPassword(type='text',name='signUpPassword' required placeholder='password')
     button#signUp(type='submit') Sign Up
 
-  h2 Log In
-
   form(method='POST' action='/users')
-    input#logInEmail(type='text', placeholder='email' name='logInEmail')
-    input#logInPassword(type='text', placeholder='password' name='logInPassword')
+    input#logInEmail(type='text', required placeholder='email' name='logInEmail')
+    input#logInPassword(type='text', required placeholder='password' name='logInPassword')
     button#logIn(type='submit') Log In
