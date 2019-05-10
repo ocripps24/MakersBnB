@@ -7,15 +7,16 @@ block content
 
   a#addListing(href='http://localhost:3000/add') Add Listing
 
+  div(class='listings', id='listings')
+    for property in properties
+      p #{property.name}: #{property.description} /#{property.price} 
+      if userid == property.user_id
+        form(method='POST', action='/edit', id='editproperty', name='editproperty')
+          button#edit(type='submit', name='edit', value=property.id) Edit
+      else
+        form(method='POST', action=`/`+property.id+`/request`, id='requestproperty', name='requestproperty')
+        <input type="submit" id="edit" value="request"/>
 
-  for property in properties
-    p #{property.name}: #{property.description} /#{property.price}
-    if userid == property.user_id
-      form(method='POST', action=`/`+property.id+`/edit`, id='editproperty', name='editproperty')
-      <input type="submit" id="edit" value="edit"/>
-    else
-      form(method='POST', action=`/`+property.id+`/request`, id='requestproperty', name='requestproperty')
-      <input type="submit" id="edit" value="request"/>
 
   <div class="grid-layout">
       <div class="grid-item grid-item-1">item 1</div>
@@ -41,4 +42,3 @@ block content
       <div class="grid-item span-2 grid-item-21">item 21</div>
       
     
-
