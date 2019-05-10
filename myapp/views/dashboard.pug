@@ -6,3 +6,6 @@ block content
   h2 Dashboard
 
   a#addListing(href='http://localhost:3000/add') Add Listing
+
+  for property in properties
+    p #{property.name}: #{property.description} /#{property.price}

@@ -6,14 +6,14 @@ block content
   h2 Sign Up
 
   form(method='POST' action='/')
-    input#signUpName(type='text', placeholder='name')
-    input#signUpEmail(type='text', placeholder='email')
-    input#signUpPassword(type='text', placeholder='password')
+    input#signUpName(type='text', name='signUpName', placeholder='name')
+    input#signUpEmail(type='text', name='signUpEmail', placeholder='email')
+    input#signUpPassword(type='text',name='signUpPassword' placeholder='password')
     button#signUp(type='submit') Sign Up
 
   h2 Log In
 
-  form(method='POST' action='/dashboard')
-    input#logInEmail(type='text', placeholder='email' name='email')
-    input#logInPassword(type='text', placeholder='password')
+  form(method='POST' action='/users')
+    input#logInEmail(type='text', placeholder='email' name='logInEmail')
+    input#logInPassword(type='text', placeholder='password' name='logInPassword')
     button#logIn(type='submit') Log In
