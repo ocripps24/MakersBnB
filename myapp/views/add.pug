@@ -2,4 +2,12 @@ extends layout
 
 block content
   h1 MakersBnB
+  form(method='POST' action='/add' name="returndashboard")
+    button#returndashboard(type='submit') Return Dashboard
+
   h2 Add Listing
+  form(method='POST' action='/add')
+    input#propertyName(type='text', name='propertyName', placeholder='name')
+    input#propertyDescription(type='text', name='propertyDescription', placeholder='description')
+    input#propertyPrice(type='text',name='propertyPrice' placeholder='price')
+    button#signUp(type='submit') Add Property

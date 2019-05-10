@@ -6,13 +6,12 @@ block content
   p Welcome to MakersBnB
 
   form(method='POST' action='/')
-    input#signUpName(type='text', required placeholder='name')
-    input#signUpEmail(type='text', required placeholder='email')
-    input#signUpPassword(type='text', required placeholder='password')
+    input#signUpName(type='text', name='signUpName', required placeholder='name')
+    input#signUpEmail(type='text', name='signUpEmail', required placeholder='email')
+    input#signUpPassword(type='text',name='signUpPassword' required placeholder='password')
     button#signUp(type='submit') Sign Up
 
-
-  form(method='POST' action='/dashboard')
-    input#logInEmail(type='text', required placeholder='email' name='email')
-    input#logInPassword(type='text', required placeholder='password')
+  form(method='POST' action='/users')
+    input#logInEmail(type='text', required placeholder='email' name='logInEmail')
+    input#logInPassword(type='text', required placeholder='password' name='logInPassword')
     button#logIn(type='submit') Log In
