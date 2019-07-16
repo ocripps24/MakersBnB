@@ -1,6 +1,6 @@
 # MakersBnB
 
-### [Welcome](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#welcome-to-bearbook) - [Team](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#team) - [Screenshots](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#screenshots) - [Our Process](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#our-process) - [Quickstart](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#quickstart) - [Testing](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#testing) 
+### [Team](https://github.com/ocripps24/MakersBnB#team) - [Screenshots](https://github.com/ocripps24/MakersBnB#screenshots) - [Quickstart](https://github.com/ocripps24/MakersBnB#quickstart) - [Testing](https://github.com/ocripps24/MakersBnB#testing) - [Specification](https://github.com/ocripps24/MakersBnB#specification) - [User Stories](https://github.com/ocripps24/MakersBnB#user-stories)
 
 ## Team
 
@@ -74,7 +74,7 @@ We would like a web application that allows users to list spaces they have avail
 - A ‘chat’ functionality once a space has been booked, allowing users whose space-booking request has been confirmed to chat with the user that owns that space
 - Basic payment implementation though Stripe.
 
-### User Stories
+## User Stories
 ```
 User story 1
 As a General User
