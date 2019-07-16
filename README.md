@@ -1,5 +1,46 @@
 # MakersBnB
 
+### [Welcome](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#welcome-to-bearbook) - [Team](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#team) - [Screenshots](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#screenshots) - [Our Process](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#our-process) - [Quickstart](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#quickstart) - [Testing](https://github.com/CarlyJ88/Acebook-The-Brave-Bears#testing) 
+
+## Team
+
+* [Yadira Sanchez](https://github.com/yadlra)
+* [Nandini Patel](https://github.com/Nandini0206)
+* [Carly Jenkinson](https://github.com/CarlyJ88)
+* [Steven Hektor](https://github.com/shektor)
+* [Scott Hall](https://github.com/HottScall)
+* [Oliver Cripps](https://github.com/ocripps24)
+
+## Screenshots
+
+#### Signup
+![Signup](https://i.imgur.com/GlcPadc.jpg)
+#### Dashboard
+![Dashboard](https://imgur.com/IisN4Sf.jpg)
+
+## Quickstart
+
+First, clone this repository. Then:
+
+```bash
+> bundle install
+> bin/rails db:create
+> bin/rails db:migrate
+
+> bundle exec rspec # Run the tests to ensure it works
+> bin/rails server # Start the server at localhost:3000
+```
+
+To clean the database, run the following command:
+```bash
+> bin/rails db:migrate:reset
+```
+
+## Testing
+
+#### RSpec
+
+`bundle exec rspec` to run all the RSpec feature and unit tests
 
 ## Specification
 
