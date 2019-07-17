@@ -4,11 +4,9 @@
 
 ## Team
 
-* [Yadira Sanchez](https://github.com/yadlra)
-* [Nandini Patel](https://github.com/Nandini0206)
-* [Carly Jenkinson](https://github.com/CarlyJ88)
-* [Steven Hektor](https://github.com/shektor)
-* [Scott Hall](https://github.com/HottScall)
+* [Dominic White](https://github.com/domw30)
+* [Simon Chenbo Yi](https://github.com/SimonChenboYi)
+* [Jose Quinones](https://github.com/jo-quin)
 * [Oliver Cripps](https://github.com/ocripps24)
 
 ## Screenshots
