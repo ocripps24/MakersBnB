@@ -18,20 +18,24 @@
 
 ## Quickstart
 
-First, clone this repository. Then:
+First, clone this repository and ensure you have node.js and npm installed. Then:
 
 ```bash
-> bundle install
-> bin/rails db:create
-> bin/rails db:migrate
-
-> bundle exec rspec # Run the tests to ensure it works
-> bin/rails server # Start the server at localhost:3000
+npm install
+(Optional) - Nightwatch uses a version of growl with a security issue detailed at the end of this readme. You can run 'npm audit fix' or follow the steps at the end of the readme
+npm start
 ```
 
-To clean the database, run the following command:
+To setup the database, connect to psql and run the following command:
 ```bash
-> bin/rails db:migrate:reset
+CREATE DATABASE makers_bnb;
+```
+Then in terminal run:
+```bash
+npm install sequelize --save
+npm install pg--save
+npm install sequelize-cli -g (you may need to prepend this command with sudo)
+sequelize db:migrate
 ```
 
 ## Testing
