@@ -40,9 +40,13 @@ sequelize db:migrate
 
 ## Testing
 
-#### RSpec
+#### Nightwatch
 
-`bundle exec rspec` to run all the RSpec feature and unit tests
+```bash
+cd myapp
+npm start
+npm test (in a separate terminal window/tab)
+```
 
 ## Specification
 
@@ -130,6 +134,7 @@ I want the availability status of my property to be unavailable if booked
 
 ```
 
+Various security vulnerabilites will exist as time passes, they are best fixed with the help of 'npm audit fix' but some can also be fixed with the below methods
 
 Security vulnerability from installation of nightwatch
 
