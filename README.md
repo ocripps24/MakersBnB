@@ -12,9 +12,9 @@
 ## Screenshots
 
 #### Signup
-![Signup](https://i.imgur.com/GlcPadc.jpg)
+![Signup](https://imgur.com/dUHzCOF.jpg)
 #### Dashboard
-![Dashboard](https://imgur.com/IisN4Sf.jpg)
+![Dashboard](https://imgur.com/ZpE6FaJ.jpg)
 
 ## Quickstart
 
