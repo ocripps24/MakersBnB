@@ -26,6 +26,11 @@ npm install
 npm start
 ```
 
+Then navigate to
+```bash
+localhost:3000/
+```
+
 To setup the database, connect to psql and run the following command:
 ```bash
 CREATE DATABASE makers_bnb;
