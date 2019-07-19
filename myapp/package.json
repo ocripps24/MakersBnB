@@ -14,14 +14,17 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "growl": "~1.10.0",
     "http-errors": "~1.6.3",
-    "jasmine-node": "^1.16.2",
+    "jasmine-node": "^3.0.0",
+    "lodash": ">=4.17.13",
+    "lodash.defaultsdeep": ">=4.6.1",
+    "lodash.merge": ">=4.6.2",
     "morgan": "~1.9.1",
     "pg": "^7.10.0",
     "pug": "^2.0.3",
     "request": "^2.88.0",
-    "sequelize": "^5.8.5",
-    "growl": "~1.10.0"
+    "sequelize": "^6.0.0"
   },
   "devDependencies": {
     "chromedriver": "^74.0.0",
