@@ -6,10 +6,6 @@
     "start": "if [[ $NODE_ENV == 'production' ]]; then node ./bin/www; else nodemon ./bin/www; fi",
     "test": "nightwatch"
   },
-  "engines": {
-    "node": ">=10.0.0 <11.0.0",
-    "npm": ">=6.0.0 <7.0.0 "
-  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
