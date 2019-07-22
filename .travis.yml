@@ -1,5 +1,13 @@
 language: node_js
 
+before_script:
+- wget http://chromedriver.storage.googleapis.com/76.0.3809.68/chromedriver_mac64.zip
+- unzip chromedriver_mac64.zip -d /home/travis/virtualenv/python2.7.12/bin/
+- export CHROME_BIN=chromium-browser
+
 script:
   - npm start
   - npm test
+
+
+# 76.0.3809.68/chromedriver_mac64.zip
