@@ -28,7 +28,7 @@
     "jasmine": "^3.4.0",
     "nightwatch": "^1.0.19",
     "nodemon": "^1.19.0"
-  }
+  },
   "engines": {
     "node": "10.15.3"
   }
