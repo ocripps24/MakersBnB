@@ -4,7 +4,7 @@ node_js:
   - node
 
 addons:
-  chrome: 74.0.0
+  chrome: stable
 
 before_install:
   - export CHROME_BIN=chromium-browser
