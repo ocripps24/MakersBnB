@@ -12,9 +12,10 @@ module.exports = {
     "port": 5432
   },
   "production": {
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
-    "port": 5432
+    "dialectOptions": {
+      "ssl": "true"
+    }
   }
 }
