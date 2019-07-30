@@ -9,7 +9,10 @@ module.exports = {
     "default" : {
       "skip_testcases_on_fail": false,
       "desiredCapabilities": {
-        "browserName": "chrome"
+        "browserName": "chrome",
+        "chromeOptions": {
+          "w3c": "false"
+        }
       }
     }
   }
