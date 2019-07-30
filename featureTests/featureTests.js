@@ -1,7 +1,7 @@
 module.exports = {
   'User Story One - step one: navigate to MakersBnB and sign up' : function (browser) {
     browser
-      .url('http://localhost:3000/')
+      .url('http://localhost:8000/')
       .setValue('#signUpName', 'Bob Jones')
       .setValue('#signUpEmail', 'jonesbob@email.com')
       .setValue('#signUpPassword', '****')
@@ -10,37 +10,37 @@ module.exports = {
 
   'User Story One - step two: log in to dashboard' : function (browser) {
     browser
-      .url('http://localhost:3000/')
+      .url('http://localhost:8000/')
       .setValue('#logInEmail', 'jonesbob@email.com')
       .setValue('#logInPassword', '****')
       .click('#logIn')
-      .verify.urlEquals('http://localhost:3000/dashboard')
+      .verify.urlEquals('http://localhost:8000/dashboard')
       .end();
   },
 
   'User Story Two - step one: navigate to add listing page' : function (browser) {
     browser
-      .url('http://localhost:3000/')
+      .url('http://localhost:8000/')
       .setValue('#logInEmail', 'jonesbob@email.com')
       .setValue('#logInPassword', '****')
       .click('#logIn')
       .click('#addListing')
-      .verify.urlEquals('http://localhost:3000/add')
+      .verify.urlEquals('http://localhost:8000/add')
   },
 
   'User Story Two - step two: set values for form name/description/price' : function (browser) {
     browser
-      .url('http://localhost:3000/')
+      .url('http://localhost:8000/')
       .setValue('#logInEmail', 'jonesbob@email.com')
       .setValue('#logInPassword', '****')
       .click('#logIn')
       .click('#addListing')
-      .verify.urlEquals('http://localhost:3000/add')
+      .verify.urlEquals('http://localhost:8000/add')
       .setValue('#propertyName', 'barcelona flat')
       .setValue('#propertyDescription', 'sunny barcelona flat')
       .setValue('#propertyPrice', '£25')
       .click('#create')
-      .verify.urlEquals('http://localhost:3000/dashboard')
+      .verify.urlEquals('http://localhost:8000/dashboard')
   },
 
   'User Story Two - step three: user listings contains new listing' : function (browser) {
@@ -51,7 +51,7 @@ module.exports = {
 
   'User Story Three - step one: dashboard can contain more than one user listing' : function (browser) {
     browser
-      .url('http://localhost:3000/')
+      .url('http://localhost:8000/')
       .setValue('#logInEmail', 'jonesbob@email.com')
       .setValue('#logInPassword', '****')
       .click('#logIn')
@@ -67,12 +67,12 @@ module.exports = {
 
   'User Story Five - step one: go to the edit page' : function (browser) {
     browser
-      .url('http://localhost:3000/')
+      .url('http://localhost:8000/')
       .setValue('#logInEmail', 'jonesbob@email.com')
       .setValue('#logInPassword', '****')
       .click('#logIn')
       .click('button#edit')
-      .verify.urlEquals('http://localhost:3000/edit')
+      .verify.urlEquals('http://localhost:8000/edit')
       .verify.containsText('h3', 'barcelona flat')
   }
 
