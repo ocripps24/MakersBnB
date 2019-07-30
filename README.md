@@ -1,4 +1,4 @@
-# MakersBnB
+# MakersBnB [![Build Status](https://travis-ci.org/ocripps24/MakersBnb.svg?branch=master)](https://travis-ci.org/ocripps24/MakersBnb)
 
 ### [Team](https://github.com/ocripps24/MakersBnB#team) - [Screenshots](https://github.com/ocripps24/MakersBnB#screenshots) - [Quickstart](https://github.com/ocripps24/MakersBnB#quickstart) - [Testing](https://github.com/ocripps24/MakersBnB#testing) - [Specification](https://github.com/ocripps24/MakersBnB#specification) - [User Stories](https://github.com/ocripps24/MakersBnB#user-stories)
 
@@ -28,7 +28,7 @@ npm start
 
 Then navigate to
 ```bash
-localhost:3000/
+localhost:8000/
 ```
 
 To setup the database, connect to psql and run the following command:
