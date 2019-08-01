@@ -48,7 +48,7 @@ h1 {
 
 .listings-block {
   background-color: rgba(255, 255, 255, 0.8) !important;
-  max-height: 400px;
+  max-height: 700px;
   overflow: scroll;
 }
 
@@ -58,6 +58,15 @@ h1 {
 
 #hidden-block {
   background-color: rgba(255, 255, 255, 0.0);
+}
+
+#add-listing-form input {
+  margin: 5px;
+  padding: 5px;
+}
+
+#edit-para {
+  color: black;
 }
 
 .landing {
@@ -106,7 +115,7 @@ h1 {
 
 .span-3 {
   grid-column-end: span 3;
-  grid-row-end: span 2;
+  grid-row-end: span 1;
 }
 
 .span-4 {
