@@ -4,3 +4,6 @@ block content
   body(class='dash-wrapper')
   h3=name
   p(id='edit-para') ~this page is a work in progress~
+  
+  form(method='GET' action='/dashboard' name="returndashboard")
+    button#returndashboard(type='submit') Return Dashboard
