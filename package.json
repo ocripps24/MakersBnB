@@ -13,7 +13,7 @@
     "growl": "~1.10.0",
     "http-errors": "~1.6.3",
     "jasmine-node": "^3.0.0",
-    "lodash": ">=4.17.13",
+    "lodash": ">=4.17.19",
     "lodash.defaultsdeep": ">=4.6.1",
     "lodash.merge": ">=4.6.2",
     "morgan": "~1.9.1",
